@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Abdallah — Développeur web freelance",
+    "description": "Développeur web freelance (Next.js, React, Tailwind). Des sites rapides, soignés et pensés pour convertir — pour les restaurants, commerces et au-delà."
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu"
+  },
+  "header": {
+    "name": "Abdallah",
+    "role": "Développeur web",
+    "nav": {
+      "work": "Travaux",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "langSwitchLabel": "Langue du site"
+  },
+  "hero": {
+    "eyebrow": "Abdallah — Développeur web freelance",
+    "title": "Des sites qui ne font pas que plaire. Ils *convertissent*.",
+    "subtitle1": "Next.js, React & Tailwind — du site vitrine à l'application web.",
+    "subtitle2": "Basé en région parisienne. Disponible partout.",
+    "scrollHint": "Travaux sélectionnés"
+  },
+  "work": {
+    "label": "Travaux sélectionnés",
+    "visit": "Voir le site",
+    "comingSoon": "Bientôt en ligne",
+    "imagePlaceholder": "Aperçu à venir"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Moins, mais *mieux*.",
+    "body": "Développeur web indépendant. J'aime créer des expériences propres et efficaces pour les commerces locaux — des sites rapides, lisibles, qui donnent envie de pousser la porte.",
+    "detail": "Chaque projet est traité comme un produit : performance, finition, zéro superflu. Stack de prédilection : Next.js, React, Tailwind."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Un projet ? *Discutons-en.*",
+    "body": "Un appel découverte de 15 minutes pour cadrer votre besoin. Simple, direct, sans engagement.",
+    "whatsappCta": "Discuter sur WhatsApp",
+    "whatsappPrefill": "Bonjour Abdallah, je vous contacte au sujet d'un projet de site web.",
+    "emailLabel": "ou par email :",
+    "formTitle": "Laissez-moi un message",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "vous@exemple.com",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-moi de votre projet…",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "sent": "Message envoyé — je reviens vers vous rapidement.",
+      "error": "Une erreur est survenue. Réessayez, ou écrivez-moi directement sur WhatsApp.",
+      "mailto": "Votre application email va s'ouvrir avec le message pré-rempli.",
+      "mailtoSubject": "Projet web — contact depuis abdee.dev"
+    }
+  },
+  "footer": {
+    "menuTitle": "Menu",
+    "contactTitle": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "copyright": "© {year} Abdallah. Tous droits réservés.",
+    "madeWith": "Conçu et développé à la main — Next.js, Tailwind & beaucoup de soin.",
+    "backToTop": "Remonter"
+  }
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ────────────────────────────────────────────────────────────────
+   Design tokens — palette sobre : encre chaude, crème, un accent.
+   Modifier une couleur ici la propage à tout le site.
+   ──────────────────────────────────────────────────────────────── */
+@theme inline {
+  --color-ink: #0a0a09;
+  --color-ink-soft: #131311;
+  --color-cream: #f2efe8;
+  --color-accent: #ff5a1f;
+  --color-line: rgb(242 239 232 / 0.14);
+
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), Georgia, serif;
+
+  /* Courbe maison (easeOutQuart) → utilitaire `ease-out-quart` */
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  /* Défilement doux pour les ancres, seulement si l'utilisateur l'accepte */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    @apply bg-ink font-sans text-cream antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+/* Accent typographique : les *mots* marqués dans les locales (cf. <Accent />) */
+.accent-em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* ────────────────────────────────────────────────────────────────
+   Apparition au scroll (cf. components/ui/Reveal.tsx).
+   Transform + opacity uniquement : aucun impact sur le layout.
+   ──────────────────────────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s var(--ease-out-quart),
+    transform 0.9s var(--ease-out-quart);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Entrée du hero : animation CSS pure — ne dépend pas de l'hydratation JS,
+   donc le titre (élément LCP) est peint immédiatement. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-enter {
+    animation: hero-enter 0.9s var(--ease-out-quart) both;
+    animation-delay: var(--enter-delay, 0ms);
+  }
+
+  @keyframes hero-enter {
+    from {
+      opacity: 0.01;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

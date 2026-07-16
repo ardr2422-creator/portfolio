@@ -1,0 +1,21 @@
+# Dépendances
+/node_modules
+
+# Next.js
+/.next
+/out
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Divers
+.DS_Store
+*.tsbuildinfo
+.env*.local
+
+# Artefacts d'analyse Playwright (référence design)
+/.playwright-mcp
+
+# Skills Claude Code locaux (non liés au portfolio)
+/skills

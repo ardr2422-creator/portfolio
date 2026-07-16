@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Abdallah — Freelance Web Developer",
+    "description": "Freelance web developer (Next.js, React, Tailwind). Fast, polished websites built to convert — for restaurants, local businesses and beyond."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
+  "header": {
+    "name": "Abdallah",
+    "role": "Web developer",
+    "nav": {
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "langSwitchLabel": "Site language"
+  },
+  "hero": {
+    "eyebrow": "Abdallah — Freelance web developer",
+    "title": "Websites that don't just look good. They *convert*.",
+    "subtitle1": "Next.js, React & Tailwind — from showcase sites to web apps.",
+    "subtitle2": "Based near Paris. Available anywhere.",
+    "scrollHint": "Selected work"
+  },
+  "work": {
+    "label": "Selected work",
+    "visit": "Visit site",
+    "comingSoon": "Coming soon",
+    "imagePlaceholder": "Preview coming soon"
+  },
+  "about": {
+    "label": "About",
+    "title": "Less, but *better*.",
+    "body": "Independent web developer. I love crafting clean, effective experiences for local businesses — fast, readable websites that make people want to walk through the door.",
+    "detail": "Every project is treated like a product: performance, finish, zero clutter. Stack of choice: Next.js, React, Tailwind."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Got a project? *Let's talk.*",
+    "body": "A 15-minute discovery call to scope your needs. Simple, direct, no strings attached.",
+    "whatsappCta": "Chat on WhatsApp",
+    "whatsappPrefill": "Hi Abdallah, I'm reaching out about a website project.",
+    "emailLabel": "or by email:",
+    "formTitle": "Leave me a message",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project…",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "sent": "Message sent — I'll get back to you shortly.",
+      "error": "Something went wrong. Try again, or message me directly on WhatsApp.",
+      "mailto": "Your email app will open with the message pre-filled.",
+      "mailtoSubject": "Web project — contact from abdee.dev"
+    }
+  },
+  "footer": {
+    "menuTitle": "Menu",
+    "contactTitle": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "copyright": "© {year} Abdallah. All rights reserved.",
+    "madeWith": "Designed & built by hand — Next.js, Tailwind & a lot of care.",
+    "backToTop": "Back to top"
+  }
+}
