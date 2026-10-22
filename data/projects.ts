@@ -34,6 +34,54 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "wsi",
+    name: "WSI",
+    year: "'26",
+    client: {
+      fr: "Infogérance & IT pour PME, Gennevilliers",
+      en: "Managed IT for SMBs, Gennevilliers (FR)",
+    },
+    tagline: {
+      fr: "Refonte complète après audit : scène 3D signature, accessibilité, SEO et sécurité repensés de A à Z.",
+      en: "Full redesign after an audit: signature 3D scene, with accessibility, SEO and security rebuilt from A to Z.",
+    },
+    url: "https://wsi-site-demo.vercel.app",
+    image: "/images/projects/wsi.jpg",
+    techs: ["Astro", "Three.js", "Playwright", "Vercel"],
+  },
+  {
+    slug: "anaphys",
+    name: "Anaphys",
+    year: "'26",
+    client: {
+      fr: "Soins capillaires naturels, e-commerce",
+      en: "Natural hair care, e-commerce",
+    },
+    tagline: {
+      fr: "Thème Shopify sur mesure : diagnostic « Trouve ton rituel », packs de soins et étiquettes personnalisées.",
+      en: "Custom Shopify theme: “find your ritual” quiz, care bundles and personalised labels.",
+    },
+    url: "https://anaphys.com",
+    image: "/images/projects/anaphys.jpg",
+    techs: ["Shopify", "Liquid", "JavaScript"],
+  },
+  {
+    slug: "ouine-distribution",
+    name: "Ouine Distribution",
+    year: "'26",
+    client: {
+      fr: "Distributeur alimentaire B2B, Argenteuil",
+      en: "B2B food distributor, Argenteuil (FR)",
+    },
+    tagline: {
+      fr: "Site bilingue orienté revendeurs : marques exclusives, formulaire partenaire et SEO soigné.",
+      en: "Bilingual, reseller-focused site: exclusive brands, partner form and polished SEO.",
+    },
+    url: "https://ouine-distribution.vercel.app",
+    image: "/images/projects/ouine-distribution.jpg",
+    techs: ["Next.js", "Tailwind", "Vercel"],
+  },
+  {
     slug: "kayani-kitchen",
     name: "Kayani Kitchen",
     year: "'25",
@@ -112,5 +160,21 @@ export const projects: Project[] = [
     url: "https://c-mon-dessert.vercel.app",
     image: "/images/projects/c-mon-dessert.jpg",
     techs: ["Next.js", "Tailwind", "Vercel"],
+  },
+  {
+    slug: "chicken-story",
+    name: "Chicken Story",
+    year: "'26",
+    client: {
+      fr: "Poulet frit, Argenteuil",
+      en: "Fried chicken, Argenteuil (FR)",
+    },
+    tagline: {
+      fr: "« L'obsession du poulet frit » : une street food premium, typographie XXL et carte qui donne faim.",
+      en: "“Obsessed with fried chicken”: premium street food, XXL type and a menu that makes you hungry.",
+    },
+    url: "https://chicken-story-website.vercel.app",
+    image: "/images/projects/chicken-story.jpg",
+    techs: ["HTML", "CSS", "JavaScript", "Node.js"],
   },
 ];
