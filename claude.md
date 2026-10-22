@@ -98,7 +98,7 @@ Section About : rester volontairement vague sur l'âge/statut. Ton confiant, pas
 
 Section Contact : pas de tarifs affichés. Ton "discovery call" — inviter à discuter du projet, pas à acheter directement.
 
-Les 5 projets à afficher (dans cet ordre par défaut, modifiable) : Kayani Kitchen, Dr Wings, Saiyan Food, BENTI, C'Mon Dessert.
+Les 9 projets à afficher (dans cet ordre par défaut, modifiable) : WSI, Anaphys, Ouine Distribution, Kayani Kitchen, Dr Wings, Saiyan Food, BENTI, C'Mon Dessert, Chicken Story.
 
 Chaque projet doit avoir un placeholder clair si l'image/lien n'est pas encore fourni (ne jamais casser le build à cause d'un asset manquant).
 
