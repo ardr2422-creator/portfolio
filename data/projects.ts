@@ -157,7 +157,6 @@ export const projects: Project[] = [
       fr: "Desserts livrés jusqu'à 4h30 du matin — commande en ligne et carte gourmande.",
       en: "Desserts delivered until 4:30am — online ordering and an indulgent menu.",
     },
-    url: "https://c-mon-dessert.vercel.app",
     image: "/images/projects/c-mon-dessert.jpg",
     techs: ["Next.js", "Tailwind", "Vercel"],
   },
